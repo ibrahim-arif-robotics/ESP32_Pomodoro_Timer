@@ -34,7 +34,7 @@ enum pomodorotimermodes {
 
 pomodorotimermodes currentmode = waitingforauser;
 
-// YOUR ORIGINAL VARIABLES 
+
 
 int workMinutes = 0;
 int breakMinutes = 0;
@@ -188,7 +188,7 @@ void handleBluetooth() {
                 SerialBT.println("Timer reset.");
                 SerialBT.println("Ready for a work session.");
             }
-            // Unknown command
+            
             else if (incomingCommand.length() > 0) {
                 SerialBT.println("Unknown command");
             }
