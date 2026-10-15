@@ -26,6 +26,6 @@ The timer helps manage work and break sessions using the Pomodoro technique. You
   ## What i learned
 I learned how to program an ESP32 with C++, communicate with a phone through Bluetooth, and display information on an OLED screen.
 
-One challenge was handling the different timer states, such as waiting, working, and resting, using enum and `switch case`. I also learned to handle Bluetooth commands, fix logic errors, and use millis() to run countdowns without blocking other tasks.
+One challenge was handling the different timer states, such as waiting, working, and resting, using 'enum' and `switch case`. I also learned to handle Bluetooth commands, fix logic errors, and use 'millis()' to run countdowns without blocking other tasks.
 
 This gave me a better understanding of how to develop program logic and connect software to physical hardware.
